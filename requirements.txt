@@ -1,0 +1,4 @@
+flask==2.2.5
+# Note: `gunicorn` is a UNIX-only WSGI server and may fail to install on Windows.
+# Install `gunicorn==20.1.0` only on Linux servers (e.g., in production) with:
+#     pip install gunicorn==20.1.0
